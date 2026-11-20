@@ -3,10 +3,6 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace GestionLaboratoire
 {
-    // =========================================================
-    // 1. UTILISATEURS (HÉRITAGE)
-    // =========================================================
-
     public class Utilisateur
     {
 
@@ -214,10 +210,6 @@ namespace GestionLaboratoire
             Console.WriteLine($"Admin {nom} génère les statistiques globales ({utilisateursGeres.Count} utilisateurs actifs).");
         }
     }
-
-    // =========================================================
-    // 2. CLASSES MÉTIER
-    // =========================================================
 
     public class Patient
     {
